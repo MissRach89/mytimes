@@ -1,0 +1,112 @@
+/* Universal Styles */
+
+* {
+  margin: 0px;
+}
+
+body {
+  font-family: "Times", serif;
+}
+
+/* Header Navigation */
+
+.header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-flex;
+  border-bottom: 1px solid black;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header a {
+  color: black;
+}
+
+.header li {
+  display: inline-flex;
+  padding-left: 20px;
+}
+
+.header p {
+  padding-left: 20px;
+}
+
+
+#logo {
+  color: MediumAquamarine;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+#navlinks {
+  margin-right: 20px;
+}
+
+/* Body styling */
+
+.news {
+  position: relative;
+  padding-top: 82px;
+  display: flex;
+  border: 1px solid black;
+}
+
+.columnlarge {
+  min-width: 630px;
+  margin: 20px;
+  border: 1px solid black;
+}
+
+.columnmedium {
+  min-width: 300px;
+  margin: 20px;
+  border: 1px solid black;
+}
+
+.columnsmall {
+  min-width: 240px;
+  margin: 20px;
+  border: 1px solid black;
+}
+
+/* Footer Styling */
+
+.footer {
+  height: 320px;
+  width: 100%;
+  background-color: MediumAquamarine;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.footer li {
+  display: inline-flex;
+  padding-left: 20px;
+}
+
+.footer h4 {
+  font-size: 18px;
+  font-family: "Times", serif;
+  color: white;
+  padding-right: 20px;
+  border-right: 2px solid white;
+}
+
+.footer a {
+  color: black;
+}
+
+.footer div {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 20px;
+}
