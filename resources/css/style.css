@@ -53,7 +53,7 @@ a {
 
 /* Special Typography Styling Exceptions */
 
-.header p {
+header p {
   font-weight: bold;
   font-family: "Verdana", sans-serif;
   margin-top: 16px;
@@ -72,18 +72,18 @@ a {
   padding-right: 16px;
 }
 
-.footer h4 {
+footer h4 {
   color: white;
   text-align: center;
 }
 
-.footer a {
+footer a {
   font-weight: bold;
 }
 
 /* Header Navigation Styling */
 
-.header {
+header {
   display: inline-flex;
   position: fixed;
   width: 100%;
@@ -95,7 +95,7 @@ a {
   z-index: 99;
 }
 
-.header li {
+header li {
   display: inline-flex;
   padding-left: 20px;
   font-weight: bold;
@@ -242,7 +242,7 @@ a {
 
 /* Footer Styling */
 
-.footer {
+footer {
   height: 320px;
   width: 100%;
   background-color: MediumAquamarine;
@@ -253,7 +253,7 @@ a {
   flex-direction: column;
 }
 
-.footer li {
+footer li {
   display: inline-flex;
   padding-left: 20px;
 }
